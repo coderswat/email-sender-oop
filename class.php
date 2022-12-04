@@ -12,7 +12,7 @@ class Emailsend{
   $this->texti = $texti;
   }
   public function sendMail(){
-$url = "https://coderswat.co/api.php";
+$url = "https://yourdomain../api.php";
 $mn = " $this->texti , This Email is From $this->email";
 $curl = curl_init();
 curl_setopt($curl,CURLOPT_URL,$url);
